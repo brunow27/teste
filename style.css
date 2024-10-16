@@ -1,0 +1,120 @@
+body {
+
+    background-color: rgb(199, 206, 199);
+    font: 18px "Porsche Next", "Arial Narrow", sans-serif;
+    justify-content: space-between;
+
+}
+
+#header {
+    display: flex;
+    text-align: center;
+    padding: 3px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    height: 50px;
+    border-radius: 10px;
+
+}
+
+/*Sublinhado para dizer que a pessoa está na página X*/
+.sublinhado {
+    text-decoration: underline;
+    text-decoration-color: #d5001c;
+}
+
+.comprar {
+    border-radius: 20px;
+    background-color: grey;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+    align-items: right;
+    justify-content: space-between;
+    font-size: 20px;
+    color: rgb(7, 7, 117);
+
+}
+
+.comprar button:hover {
+
+    color: green;
+    cursor: pointer;
+
+}
+
+.botao {
+    background-color: rgb(116, 139, 116);
+    width: 200px;
+    height: 70px;
+    border-radius: 50px;
+    font-size: 30px;
+    font-family: fantasy;
+    color: rgb(255, 255, 255);
+
+}
+
+.container {
+    width: 1905px;
+    grid-template-columns: 300px 300px 300px;
+    align-items: flex-start;
+    background-color: gray;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 70px;
+    justify-content: center;
+
+}
+
+h2 {
+    font-size: 15px;
+}
+
+.textos li {
+    text-align: center;
+    font: 18px "Porsche Next", "Arial Narrow", sans-serif;
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.preco {
+
+    background: -webkit-linear-gradient(95.62deg, #296d09 12.24%, #078a42 84.39%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.valor {
+
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.imagens {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+
+}
+
+.ficha-tecnica {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    padding: 10px;
+}
+
+img {
+    border-radius: 10px;
+    padding: 5px
+}
